@@ -129,7 +129,7 @@ export class DiceRoller {
 			this.Teal.socketAddress = this.params.server;
 			this.Teal.socketSecure = this.params.secure;
 		} else {
-			this.Teal.socketAddress = 'dnd.majorsplace.com:32400';
+			this.Teal.socketAddress = 'localhost:32400';
 			this.Teal.socketSecure = false;
 		}
 
